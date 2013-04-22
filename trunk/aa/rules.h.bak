@@ -1,0 +1,23 @@
+#ifndef _RULES_
+#define _RULES_
+//
+#include "test.h"
+#include <iostream>
+#include <vector>
+#define MAXLEN_OF_RULE
+#include "Symbol.h"
+
+class CRules
+{
+public:
+	CSymbol *LeftPart;
+	vector<CSymbol*> RightPart;
+	int RuleInd;
+	CRules(){};
+	CRules(CSymbol *LeftPart,
+		vector<CSymbol*>& RightPart);
+private:
+	void insert(CSymbol *RightSymbol); 
+}
+
+#endif

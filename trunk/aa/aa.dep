@@ -1,0 +1,55 @@
+# Microsoft Developer Studio Generated Dependency File, included by aa.mak
+
+.\aa.cpp : \
+	".\FirstSet.h"\
+	".\Item.h"\
+	".\Language.h"\
+	".\rules.h"\
+	".\Symbol.h"\
+	".\test.h"\
+	
+
+.\FirstSet.cpp : \
+	".\FirstSet.h"\
+	".\test.h"\
+	
+
+.\Iset.cpp : \
+	".\FirstSet.h"\
+	".\Iset.h"\
+	".\Item.h"\
+	".\Language.h"\
+	".\rules.h"\
+	".\Symbol.h"\
+	".\test.h"\
+	
+
+.\Item.cpp : \
+	".\FirstSet.h"\
+	".\Item.h"\
+	".\Language.h"\
+	".\rules.h"\
+	".\Symbol.h"\
+	".\test.h"\
+	
+
+.\Language.cpp : \
+	".\FirstSet.h"\
+	".\Language.h"\
+	".\rules.h"\
+	".\Symbol.h"\
+	".\test.h"\
+	
+
+.\rules.cpp : \
+	".\FirstSet.h"\
+	".\rules.h"\
+	".\Symbol.h"\
+	".\test.h"\
+	
+
+.\Symbol.cpp : \
+	".\FirstSet.h"\
+	".\Symbol.h"\
+	".\test.h"\
+	

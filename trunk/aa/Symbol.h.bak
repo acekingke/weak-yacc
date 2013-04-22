@@ -1,0 +1,14 @@
+#ifndef _SYMBOL_
+#define _SYMBOL_
+#include <string>
+#include "FirstSet.h"
+class CSymbol
+{
+public:
+	int value;
+	std::string name;
+    CSymbol(int value, std::string name);
+private:
+	CFirstSet FirstSet;
+};
+#endif
